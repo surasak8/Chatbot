@@ -1,3 +1,3 @@
 <?php
-echo "Hello LINE@ BOT 2017.";
+echo "Hello Thanachart LINE@ Maneo BOT 2017.";
 ?>
