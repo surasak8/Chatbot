@@ -15,6 +15,15 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			$text = $event['message']['text'];
+			
+			$chk_text = strtoupper ($text);
+			if ($chk_text == '@HELP' || $chk_text == '@H') {
+				$text = "@H - Help <br> @R - Register<br><hr>";
+			} else
+			if ($chk_text == '@R') {
+				
+			}
+			
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
