@@ -29,7 +29,6 @@ if (!is_null($events['events'])) {
 			if ($chk_text == 'MEAN') {
 				$text = "Mean!!!, You are เทพๆ.";
 			} else
-				} else
 			if ($chk_text == 'BOOM') {
 				$text = "Boom!!!, Cat Woman.";
 			} else
