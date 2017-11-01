@@ -32,9 +32,11 @@ if (!is_null($events['events'])) {
 				} else
 			if ($chk_text == 'BOOM') {
 				$text = "Boom!!!, Cat Woman.";
-			}
+			} else
 			if ($chk_text == 'TNS') {
 				$text = "Thanachart Security.";
+			} else {
+				$text = $text . "ฉันยังไม่รู้ ขอคิดดูก่อนนะ..."; 
 			}
 			
 			// Get replyToken
