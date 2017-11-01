@@ -21,13 +21,20 @@ if (!is_null($events['events'])) {
 				$text = "@H - Help / @R - Register / @L - Login";
 			} else
 			if ($chk_text == '@R') {
-				$text = "http://www.tnsitrade.com/register";
+				$text = "Click http://www.tnsitrade.com/register";
+			} else
+			if ($chk_text == '@L') {
+				$text = "http://www.tnsitrade.com/login";
 			} else
 			if ($chk_text == 'MEAN') {
 				$text = "Mean!!!, You are เทพๆ.";
 			} else
+				} else
 			if ($chk_text == 'BOOM') {
 				$text = "Boom!!!, Cat Woman.";
+			}
+			if ($chk_text == 'TNS') {
+				$text = "Thanachart Security.";
 			}
 			
 			// Get replyToken
