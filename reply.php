@@ -18,10 +18,16 @@ if (!is_null($events['events'])) {
 			
 			$chk_text = strtoupper ($text);
 			if ($chk_text == '@HELP' || $chk_text == '@H') {
-				$text = "@H - Help <br> @R - Register<br><hr>";
+				$text = "@H - Help /n/r @R - Register /n/r";
 			} else
 			if ($chk_text == '@R') {
-				
+				$text = "http://www.tnsitrade.com/register";
+			} else
+			if ($chk_text == '@MEAN') {
+				$text = "Mean!!!, You are เทพๆ.";
+			} else
+			if ($chk_text == '@ฺBOOM') {
+				$text = "Boom!!!, Cat Woman.";
 			}
 			
 			// Get replyToken
