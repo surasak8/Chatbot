@@ -35,7 +35,7 @@ if (!is_null($events['events'])) {
 			if ($chk_text == 'TNS') {
 				$text = "Thanachart Security.";
 			} else {
-				$text = $text . "ฉันยังไม่รู้ ขอคิดดูก่อนนะ..."; 
+				$text = $text . " เอ่อฉันขอคิดดูก่อนนะรอ...1 วัน...1เดือน...1 ปี"; 
 			}
 			
 			// Get replyToken
